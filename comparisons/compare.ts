@@ -232,6 +232,13 @@ const transcriptions2 = [
     ),
   },
   {
+    name: "Gemini Flash 8b (with fixing)",
+    transcription: fs.readFileSync(
+      __dirname + "/shadow-of-erdtree/flash-8b.txt",
+      "utf8"
+    ),
+  },
+  {
     name: "Gemini Pro (with fixing in the prompt)",
     transcription: fs.readFileSync(
       __dirname + "/shadow-of-erdtree/pro-002.txt",
